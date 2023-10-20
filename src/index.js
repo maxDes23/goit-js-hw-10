@@ -5,7 +5,7 @@ import SlimSelect from 'slim-select';
 import 'slim-select/dist/slimselect.css';
 import axios from 'axios';
 axios.defaults.headers.common['x-api-key'] =
-  'live_LHGZzFAdl2BtnLwbomiBhyI4AhJ4vEuomKW1GU4SKThZJOslkkGvyivoWPM1mULY';
+  'live_vvn0MJinoqW8XlzjTJigrKozl9H2hW1gVLfb0Jtx3x5h4e1VeQR1W0AtCmxsyGMW';
 
 const selectedBreed = document.querySelector('.breed-select');
 const catInfo = document.querySelector('.cat-info');
