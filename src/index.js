@@ -25,6 +25,7 @@ fetchBreeds()
       arrayBreedsId.push({
         text: element.name,
         value: element.id,
+        placeholder: 'Select a breed',
       });
     });
     new SlimSelect({
