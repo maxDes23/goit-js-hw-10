@@ -27,6 +27,7 @@ img {
 
 .cat-info {
   display: flex;
+  align-items:center;
   gap: 40px;
   width: 100%;
   max-width: 900px;
@@ -69,3 +70,8 @@ img {
   margin-top: 10px;
   color: rgba(255, 238, 0, 0.918);
 }
+.hidden {
+  display: none;
+  overflow: auto; 
+}
+
